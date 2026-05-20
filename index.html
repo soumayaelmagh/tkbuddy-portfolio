@@ -317,7 +317,7 @@ body{font-family:'Outfit',sans-serif;background:var(--ink);color:var(--text);ove
 <section class="slide" id="s-outro">
   <div class="outro-glow"></div>
   <div class="outro-content">
-    <div class="outro-title"><em>5</em> Projects.<br>5 Stories.</div>
+    <div class="outro-title"><em>4</em> Projects.<br>4 Stories.</div>
     <div class="outro-line"></div>
     <div class="outro-sub">TechBuddy &nbsp;·&nbsp; Built with intention.</div>
   </div>
@@ -353,7 +353,7 @@ const io = new IntersectionObserver(entries=>{
       if(dots[idx]) dots[idx].classList.add('active');
     }
   });
-},{threshold:.5});
+},{threshold:.4});
 slides.forEach(s=>io.observe(s));
 
 // keyboard nav
